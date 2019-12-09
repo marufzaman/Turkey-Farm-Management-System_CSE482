@@ -1,0 +1,389 @@
+/*--main-content-starts-here--*/
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+
+}
+.main-agileits {
+    width: 45%;
+    margin: 0 auto;
+}
+.form-agile h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    letter-spacing: 2px;
+}
+.form-agile {
+    background: rgba(4, 4, 4, 0.56);
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 60px 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0;
+    color: #ffffff;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.icon i {
+    color: #ffffff;
+    font-size: 16px;
+}
+.icon {
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    bottom: 43px;
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+.form-sub{
+	position:relative;
+}
+.form-sub input[type="text"],input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+.form-sub input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+input[type="submit"] {
+    background: #fff;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+input[type="submit"]:hover{
+    background: #df5799;
+	color:#ffffff;
+	transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+.p-bottom {
+    font-size: 13px;
+    color: #eee;
+    margin-top: 1em;
+    text-align: center;
+	text-transform: none;
+}
+.p-bottom a{
+    color: #df5799;
+	outline:none;
+	text-decoration:none;
+}
+/*--main-content-ends-here--*/
+/*--responsive-design-starts-here--*/
+@media(max-width:1440px){
+	h1 {
+		font-size: 30px;
+		margin: 40px 0;
+		word-spacing: 3px;
+	}
+	.main-agileits {
+		width: 37%;
+	}
+}
+@media(max-width:1366px){
+	.form-sub input[type="text"] {
+		width: 88%;
+	}
+	.form-sub input[type="password"] {
+		width: 88%;
+	}
+}
+@media(max-width:1280px){
+	h1 {
+		font-size: 27px;
+		margin: 35px 0;
+		letter-spacing: 3px;
+	}
+	.form-agile h2 {
+		font-size: 19px;
+		margin-bottom: 1.5em;
+	}
+	input[type="submit"] {
+		margin-top: 45px;
+	}
+	.p-bottom {
+		margin-top: 0.8em;
+	}
+	.main-agileits {
+		width: 39%;
+	}
+}
+@media(max-width:1080px){
+	.main-agileits {
+		width: 47%;
+	}
+}
+@media(max-width:991px){
+	.form-sub input[type="text"] {
+		width: 87%;
+	}
+	.form-sub input[type="password"] {
+		width: 87%;
+	}
+}
+@media(max-width:900px){
+	.main-agileits {
+		width: 50%;
+	}
+	.form-sub input[type="password"] {
+		width: 86%;
+	}
+	.form-sub input[type="text"] {
+		width: 86%;
+	}
+	input[type="submit"] {
+		padding: 8px 45px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+}
+@media(max-width:800px){
+	h1 {
+		font-size: 24px;
+		margin: 30px 0;
+	}
+	.form-agile {
+		padding: 47px 35px;
+	}
+	.form-sub input[type="text"] {
+		width: 84%;
+	}
+	.form-sub input[type="password"] {
+		width: 84%;
+	}
+	.form-sub input[type="text"], input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.form-agile h2 {
+		font-size: 17.5px;
+	}
+}
+@media(max-width:768px){
+	h1 {
+		margin: 90px 0 55px;
+	}
+	.main-agileits {
+		width: 55%;
+	}
+	.form-sub input[type="password"] {
+		width: 85.5%;
+	}
+	.form-sub input[type="text"] {
+		width: 85.5%;
+	}
+}
+@media(max-width:767px){
+	h1 {
+		margin: 35px;
+	}
+	.icon {
+		bottom: 40px;
+	}
+	.form-sub input[type="text"] {
+		padding: 12px 40px 13px 10px;
+	}
+	.form-sub input[type="password"] {
+		padding: 12px 40px 13px 10px;
+	}
+	.p-bottom {
+		margin-top: 0.5em;
+	}
+}
+@media(max-width:736px){
+	.main-agileits {
+		width: 58%;
+	}
+	.form-agile h2 {
+		font-size: 17px;
+	}
+}
+@media(max-width:667px){
+	.main-agileits {
+		width: 62%;
+	}
+	h1 {
+		margin: 37px;
+		font-size: 23px;
+		letter-spacing: 2.5px;
+		word-spacing: 2px;
+	}
+}
+@media(max-width:640px){
+	.main-agileits {
+		width: 65%;
+	}
+	.form-agile {
+		padding: 40px 35px;
+	}
+	h1 {
+		margin: 35px 0;
+	}
+}
+@media(max-width:600px){
+	.main-agileits {
+		width: 68%;
+	}
+}
+@media(max-width:568px){
+	h1 {
+		font-size: 20px;
+		letter-spacing: 2px;
+		word-spacing: 1px;
+	}
+	.form-agile h2 {
+		font-size: 16px;
+	}
+	input[type="submit"] {
+		padding: 6px 40px;
+		font-size: 13px;
+	}
+	.main-agileits {
+		width: 72%;
+	}
+}
+@media(max-width:480px){
+	.main-agileits {
+		width: 78%;
+	}
+	.form-sub input[type="text"] {
+		font-size:14px;
+	}
+	.form-sub input[type="password"] {
+		font-size:14px;
+	}
+	.form-agile {
+		padding: 40px 30px;
+	}
+	.form-sub input[type="text"] {
+		width: 84%;
+	}
+	.form-sub input[type="password"] {
+		width: 84%;
+	}
+	h1 {
+		margin: 37px 0;
+	}
+	.icon i {
+		font-size: 15px;
+	}
+}
+@media(max-width:414px){
+	.main-agileits {
+		width: 83%;
+	}
+	.form-sub input[type="text"] {
+		width: 82%;
+	}
+	.form-sub input[type="password"] {
+		width: 82%;
+	}
+	.form-agile h2 {
+		font-size: 15px;
+	}
+}
+@media(max-width:384px){
+	.main-agileits {
+		width: 89%;
+	}
+	h1 {
+		margin: 35px 0;
+	}
+}
+@media(max-width:375px){
+	h1 {
+		font-size: 19px;
+	}
+}
+@media(max-width:320px){
+	h1 {
+		font-size: 17px;
+		margin: 28px 0;
+		letter-spacing: 1.5px;
+		word-spacing: .5px;
+	}
+	.main-agileits {
+		width: 94%;
+	}
+	.form-agile {
+		padding: 30px 23px;
+	}
+	.form-sub input[type="text"] {
+		padding: 10px 34px 10px 6px;
+		margin-bottom: 15px;
+		    font-size: 13px;
+	}
+	.form-sub input[type="password"] {
+		padding: 10px 34px 10px 6px;
+		margin-bottom: 15px;
+		    font-size: 13px;
+	}
+	.p-bottom {
+		font-size: 12px;
+	}
+	input[type="submit"] {
+		margin-top: 40px;
+	}
+	.form-agile h2 {
+		font-size: 14px;
+		margin-bottom: 1em;
+	}
+	.icon {
+		bottom: 25px;
+	}
+	.icon i {
+		font-size: 14px;
+	}
+	input[type="submit"] {
+		padding: 5px 35px;
+		font-size: 12px;
+	}
+}
+/*--responsive-design-ends-here--*/
